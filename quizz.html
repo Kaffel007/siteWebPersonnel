@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz - Volleyball</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
+</head>
+
+<body>
+    <header>
+        <h1>Quizz - Volleyball</h1>
+        <img class="profile-photo" src="image/volley.jpg" alt="Ma photo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="parcours.html">Parcours</a></li>
+                <li><a href="competences.html">Compétences</a></li>
+                <li><a href="stages.html">Stages</a></li>
+                <li><a href="centre.html">Centre d'intérêt</a></li>
+                <li><a href="quizz.html">Quizz</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="temoignage.html">Témoignage</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
+        <h2>Testez vos connaissances sur le volleyball !</h2>
+        <form id="quizz-form">
+            <!-- Questions -->
+            <div>
+                <label for="q1">1. Combien de joueurs y a-t-il dans une équipe de volleyball sur le terrain
+                    ?</label><br>
+                    <br>
+                <input type="radio" name="q1" value="A" id="q1-a"> <label for="q1-a">5</label><br>
+                <input type="radio" name="q1" value="B" id="q1-b"> <label for="q1-b">6</label><br>
+                <input type="radio" name="q1" value="C" id="q1-c"> <label for="q1-c">7</label><br>
+            </div>
+            <div>
+                <label for="q2">2. Quelle est la hauteur du filet pour les hommes en compétition officielle
+                    ?</label><br>
+                    <br>
+                <input type="radio" name="q2" value="A" id="q2-a"> <label for="q2-a">2,24 m</label><br>
+                <input type="radio" name="q2" value="B" id="q2-b"> <label for="q2-b">2,43 m</label><br>
+                <input type="radio" name="q2" value="C" id="q2-c"> <label for="q2-c">2,50 m</label><br>
+            </div>
+            <div>
+                <label for="q3">3. Combien de sets une équipe doit-elle gagner pour remporter un match de volleyball
+                    ?</label><br><br>
+                <input type="radio" name="q3" value="A" id="q3-a"> <label for="q3-a">2</label><br>
+                <input type="radio" name="q3" value="B" id="q3-b"> <label for="q3-b">3</label><br>
+                <input type="radio" name="q3" value="C" id="q3-c"> <label for="q3-c">5</label><br>
+            </div>
+            <div>
+                <label for="q4">4. Combien de points sont nécessaires pour gagner un set classique (hors tie-break)
+                    ?</label><br><br>
+                <input type="radio" name="q4" value="A" id="q4-a"> <label for="q4-a">21</label><br>
+                <input type="radio" name="q4" value="B" id="q4-b"> <label for="q4-b">25</label><br>
+                <input type="radio" name="q4" value="C" id="q4-c"> <label for="q4-c">30</label><br>
+            </div>
+            <div>
+                <label for="q5">5. Comment appelle-t-on un joueur spécialisé en défense au volleyball ?</label><br><br>
+                <input type="radio" name="q5" value="A" id="q5-a"> <label for="q5-a">Libero</label><br>
+                <input type="radio" name="q5" value="B" id="q5-b"> <label for="q5-b">Attaquant</label><br>
+                <input type="radio" name="q5" value="C" id="q5-c"> <label for="q5-c">Passeur</label><br>
+            </div>
+            <div>
+                <label for="q6">6. Quelle partie du corps ne peut pas toucher le ballon au volleyball ?</label><br><br>
+                <input type="radio" name="q6" value="A" id="q6-a"> <label for="q6-a">Les pieds</label><br>
+                <input type="radio" name="q6" value="B" id="q6-b"> <label for="q6-b">Les mains</label><br>
+                <input type="radio" name="q6" value="C" id="q6-c"> <label for="q6-c">Aucune, toutes les parties du corps
+                    sont autorisées</label><br>
+            </div>
+            <div>
+                <label for="q7">7. Combien de touches maximum une équipe peut-elle effectuer avant de renvoyer le ballon
+                    ?</label><br><br>
+                <input type="radio" name="q7" value="A" id="q7-a"> <label for="q7-a">2</label><br>
+                <input type="radio" name="q7" value="B" id="q7-b"> <label for="q7-b">3</label><br>
+                <input type="radio" name="q7" value="C" id="q7-c"> <label for="q7-c">4</label><br>
+            </div>
+            <div>
+                <label for="q8">8. Quelle est la dimension standard d’un terrain de volleyball ?</label><br><br>
+                <input type="radio" name="q8" value="A" id="q8-a"> <label for="q8-a">18 x 9 m</label><br>
+                <input type="radio" name="q8" value="B" id="q8-b"> <label for="q8-b">20 x 10 m</label><br>
+                <input type="radio" name="q8" value="C" id="q8-c"> <label for="q8-c">16 x 8 m</label><br>
+            </div>
+            <div>
+                <label for="q9">9. En quelle année le volleyball a-t-il été introduit aux Jeux Olympiques ?</label><br><br>
+                <input type="radio" name="q9" value="A" id="q9-a"> <label for="q9-a">1964</label><br>
+                <input type="radio" name="q9" value="B" id="q9-b"> <label for="q9-b">1972</label><br>
+                <input type="radio" name="q9" value="C" id="q9-c"> <label for="q9-c">1988</label><br>
+            </div>
+            <div>
+                <label for="q10">10. Combien de fois une équipe peut-elle demander un temps mort par set ?</label><br><br>
+                <input type="radio" name="q10" value="A" id="q10-a"> <label for="q10-a">1</label><br>
+                <input type="radio" name="q10" value="B" id="q10-b"> <label for="q10-b">2</label><br>
+                <input type="radio" name="q10" value="C" id="q10-c"> <label for="q10-c">3</label><br>
+            </div>
+            <div>
+                <label for="q11">11. Comment s’appelle la faute où un joueur touche le filet pendant une action
+                    ?</label><br><br>
+                <input type="radio" name="q11" value="A" id="q11-a"> <label for="q11-a">Faute de filet</label><br>
+                <input type="radio" name="q11" value="B" id="q11-b"> <label for="q11-b">Double faute</label><br>
+                <input type="radio" name="q11" value="C" id="q11-c"> <label for="q11-c">Faute d’attaque</label><br>
+            </div>
+            <div>
+                <label for="q12">12. Où se trouve la position du joueur de service au volleyball ?</label><br><br>
+                <input type="radio" name="q12" value="A" id="q12-a"> <label for="q12-a">Devant le filet</label><br>
+                <input type="radio" name="q12" value="B" id="q12-b"> <label for="q12-b">Au fond du terrain</label><br>
+                <input type="radio" name="q12" value="C" id="q12-c"> <label for="q12-c">Sur le côté</label><br>
+            </div>
+            <button type="button" onclick="calculerNote()">Valider</button>
+        </form>
+        <div id="resultat"></div>
+    </main>
+    <footer>
+        <p>2024 Mon Site Personnel - Oussema Kaffel</p>
+    </footer>
+</body>
+
+</html>
